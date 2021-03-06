@@ -22,7 +22,7 @@ def predct(data,mymodel):
 
 
 app=Flask(__name__,template_folder='templates')
-
+app.config['SECRET_KEY']='aafu'
 
 
 
@@ -59,7 +59,7 @@ def predictions():
     y2= float(session['pet_w'])
     datagen=[x1,x2,y1,y2]
     valuess,flower=predct(datagen,modell)
-    return  render_template('predictions.html',reslt=flower.upper())
+    return  render_template('templates/predictions.html',reslt=flower.upper())
 
 
 if __name__ == "__main__":
