@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iris Flower Type Prediction</title>
+
+    <style>
+
+        .ent{
+               color:green
+
+             }
+
+           .ull{
+
+                 color:green;
+                 }
+
+             footer {
+    float: right;
+    height: 35px;
+    margin: 220px 10px 0px 0px;
+    background: #9FF;
+    color: #000;
+    text-align: right;
+    padding: 10px 30px;
+    width: 180px;
+}
+
+
+    </style>
+
+
+</head>
+<body bgcolor=#dwfadw>
+  <center>
+<h1 class="ent"> your entered detail (inches) is: </h1>
+
+<ul class="ull">
+
+<li> sepal_lenght: {{ session['sel_l'] }} </li>
+    <li> sepal_width: {{ session['sep_w'] }} </li>
+    <li> petal_length: {{ session['pet_l'] }} </li>
+    <li> petal_width: {{ session['pet_w'] }} </li>
+
+</ul>
+
+ <p > <font color="green">
+     Your flower is: <font color="red"> {{  reslt  }}  </font> </font> <br> <br> <br> <br> <br>  <br> <br> <br> <br>
+ </p>
+
+
+      <center> <font color="balck" size="6">    <footer> @Aafaq Altaf</footer>  </font> </center>   </font>
+
+  </center>
+
+</body>
+</html>
+
