@@ -19,7 +19,8 @@
 <center>
 <h2 class="rah">  Enter measurements of flower below </h2>
 <form method=POST>
- 
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
     {{ form.sep_len.label }} {{ form.sep_len }}   <br> <br>
     {{ form.sep_width.label }} {{ form.sep_width }}   <br> <br>
     {{ form.pet_len.label }} {{ form.pet_len }}    <br> <br>
