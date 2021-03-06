@@ -48,7 +48,7 @@ murmurhash==1.0.5
 nltk==3.5
 numpy==1.19.5
 oauthlib==3.1.0
-opencv-python==4.5.1.48
+
 opt-einsum==3.3.0
 packaging==20.9
 pandas==1.2.3
