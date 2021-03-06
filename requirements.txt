@@ -33,7 +33,7 @@ h5py==2.10.0
 idna==2.10
 importlib-metadata==3.7.0
 importlib-resources==5.1.1
-ipython==7.21.0
+ipython==7.16.1
 ipython-genutils==0.2.0
 itsdangerous==1.1.0
 jedi==0.18.0
@@ -81,13 +81,7 @@ smart-open==3.0.0
 spacy==3.0.3
 spacy-legacy==3.0.1
 srsly==2.4.0
-tensorboard==2.4.1
-tensorboard-plugin-wit==1.8.0
-tensorflow==2.4.1
-tensorflow-datasets==4.2.0
-tensorflow-estimator==2.4.0
-tensorflow-gpu==2.4.1
-tensorflow-metadata==0.28.0
+
 termcolor==1.1.0
 thinc==8.0.1
 threadpoolctl==2.1.0
