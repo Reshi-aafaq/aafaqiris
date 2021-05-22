@@ -10,6 +10,24 @@
                color:green
 
              }
+        
+        .pp{
+      
+         animation-name:appform;
+         animation-duration:1s;
+         animation-iteration-count:infinite;
+         animation-direction:normal;
+         animation-timing-function:linear;
+         }
+         @keyframes appform{
+               0%{font-size:2px; color:red;}
+
+               30%{font-size:13;color:purple;border-radius:8%;border-color:purple;}
+               50%{font-size:16px;color black;font-style:bold;border-radius:11%; font-family:arial;border-color:black;}
+               70%{font-size:19px; color:voilet; border-radius:14%;border-color:voilet;}
+               90%{font-size:21px; color:orange;font-style:bold;font-family:arial; border-radius:17%;border-color:orange;}
+               100%{font-size:23px; color:red;font-style:bold;border-radius:20%; font-family:arial;border-color:red;}
+                           }
 
         
 
@@ -34,7 +52,7 @@
 
 
  <p > <font color="green">
-     Predicted flower is: <font color="red"> <u> {{  reslt  }}  </u> </font> </font> <br> <br> <br> <br> <br>  <br> <br> <br> <br>
+     Predicted flower is: <font color="red"> </font> <p class="pp">  <u> {{  reslt  }}  </u> </p>  <br> <br> <br> <br> <br>  <br> <br> <br> <br>
  </p>
 
 
