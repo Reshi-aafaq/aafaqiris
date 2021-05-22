@@ -11,10 +11,7 @@
 
              }
 
-           .ull{
-
-                 color:green;
-                 }
+        
 
            
 
@@ -27,14 +24,14 @@
   <center>
 <h1 class="ent"> You entered : </h1>
 
-<ul class="ull">
 
-<li> sepal_lenght: {{ session['sel_l'] }} </li>
-    <li> sepal_width: {{ session['sep_w'] }} </li>
-    <li> petal_length: {{ session['pet_l'] }} </li>
-    <li> petal_width: {{ session['pet_w'] }} </li>
 
-</ul>
+<p> sepal_lenght: {{ session['sel_l'] }}  <br> <br>
+     sepal_width: {{ session['sep_w'] }}  <br> <br>
+     petal_length: {{ session['pet_l'] }}  <br> <br>
+     petal_width: {{ session['pet_w'] }}  <br> <br>
+      </p>
+
 
  <p > <font color="green">
      Predicted flower is: <font color="red"> <u> {{  reslt  }}  </u> </font> </font> <br> <br> <br> <br> <br>  <br> <br> <br> <br>
